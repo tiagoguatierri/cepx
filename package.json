@@ -1,0 +1,17 @@
+{
+  "name": "cepx",
+  "version": "0.0.1",
+  "description": "Consulta de CEP em tempo real",
+  "main": "index.js",
+  "author": "Tiago Guatierri",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "rxjs": "^7.3.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint": "^7.32.0"
+  }
+}
