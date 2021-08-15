@@ -51,7 +51,7 @@ export abstract class Service {
       map(({ response }) => response),
       map((data) => this.handleData(service)(data)),
       map((data) => (data?.cep ? data : null)),
-      catchError((err) => of(null))
+      catchError(() => of(null))
     );
   }
 }
